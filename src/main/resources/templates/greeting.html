@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en"
+      html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>User Keeper</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Welcome to User Keeper</h1>
+
+<nav>
+    <ul>
+        <li>
+            <a href="#">Contacts</a>
+        </li>
+        <li>
+            <a href="#">About us</a>
+        </li>
+        <li>
+            <a href="/users">All Users</a>
+        </li>
+        <li>
+            <a href="/user-create">Add new User</a>
+        </li>
+    </ul>
+</nav>
+
+<img th:src="@{/images/usershome.png}" height="30%" width="30%"/>
+</body>
+</html>
