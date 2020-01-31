@@ -1,4 +1,4 @@
-package com.tkachuk.UserKeeper.model;
+package com.tkachuk.userKeeper.model;
 
 import lombok.Data;
 import javax.persistence.Column;

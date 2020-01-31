@@ -1,8 +1,8 @@
-package com.tkachuk.UserKeeper.repository;
+package com.tkachuk.userKeeper.repository;
 
-import com.tkachuk.UserKeeper.model.User;
+
+import com.tkachuk.userKeeper.model.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface UserRepository extends JpaRepository<User, Long> {
-
 }

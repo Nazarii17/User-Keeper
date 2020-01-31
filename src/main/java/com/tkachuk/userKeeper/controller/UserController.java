@@ -1,7 +1,8 @@
-package com.tkachuk.UserKeeper.controller;
+package com.tkachuk.userKeeper.controller;
 
-import com.tkachuk.UserKeeper.model.User;
-import com.tkachuk.UserKeeper.service.UserService;
+
+import com.tkachuk.userKeeper.model.User;
+import com.tkachuk.userKeeper.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
